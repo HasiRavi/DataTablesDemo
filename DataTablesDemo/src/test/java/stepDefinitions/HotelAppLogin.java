@@ -50,6 +50,7 @@ public class HotelAppLogin {
 			driver.findElement(By.id("username")).sendKeys(data.get("username"));
 			driver.findElement(By.id("password")).sendKeys(data.get("password"));
 			driver.findElement(By.id("login")).click();
+			System.out.println("Helooo");
 			
 			
 		}
