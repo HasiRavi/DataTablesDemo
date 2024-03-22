@@ -60,6 +60,7 @@ public class HotelAppLogin {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 		String Greeting=driver.findElement(By.id("username_show")).getAttribute("value");
+		System.out.println("Jenkins running sucesss");
 	}
 
 }
